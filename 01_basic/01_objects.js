@@ -10,9 +10,11 @@ userfullname:{
 }
 
 console.log(userdetail.fullname.userfullname.lastname);*/
-const tenderUser={}
+ const tenderUser={}
 tenderUser.id ="1234"
 tenderUser. name ="zeeshan"
 tenderUser.islogin="false"
 console.log(tenderUser);
 
+console.log(Object.keys(tenderUser));
+console.log(Object.values(tenderUser));
